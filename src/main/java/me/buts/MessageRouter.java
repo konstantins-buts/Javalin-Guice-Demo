@@ -1,10 +1,10 @@
+package me.buts;
+
 import io.javalin.Javalin;
 
 import javax.inject.Inject;
-import javax.inject.Singleton;
 
-@Singleton
-public class MessageRouter implements Router {
+class MessageRouter implements Router {
 
     private final Javalin javalin;
     private final MessageService service;

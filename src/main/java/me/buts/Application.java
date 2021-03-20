@@ -1,3 +1,5 @@
+package me.buts;
+
 import static com.google.inject.Guice.createInjector;
 
 public class Application {

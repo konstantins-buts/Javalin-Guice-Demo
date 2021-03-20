@@ -1,3 +1,5 @@
+package me.buts;
+
 import java.util.Objects;
 
 public class Message {
@@ -27,7 +29,7 @@ public class Message {
 
     @Override
     public String toString() {
-        return "Message{" +
+        return "me.buts.Message{" +
                 "text='" + text + '\'' +
                 '}';
     }

@@ -1,3 +1,5 @@
+package me.buts;
+
 import com.google.inject.AbstractModule;
 import io.javalin.Javalin;
 
